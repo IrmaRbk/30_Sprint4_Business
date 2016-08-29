@@ -16,7 +16,6 @@
 		<link rel="stylesheet" href="css/queries.css">
 		<link rel="stylesheet" type="text/css" href="css/contact.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="">
 	  	<title>User Testing 360°</title>
 	</head>
 	<body>	
@@ -37,38 +36,38 @@
 							<li><a class="blanca" href="#"><b>¿Qué me ofrece?</b></a></li>
 							<li><a class="blanca" href="#"><b>¿Cómo funciona?</b></a></li>
 							<li><a class="blanca" href="#"><b>¿Por qué usarlo?</b></a></li>
-							<li><a class="blanca" href="#"><b>Contáctanos</b></a></li>
+							<li><a class="blanca" href="contact.html"><b>Contáctanos</b></a></li>
 						</ul>
 					</div>
 				</nav>
 			</div><!-- termina row-->
 			<header><!-- comienza mi header -->	
-				<div class="container imgheader img-responsive">	
+				<div class="container imgheader backobs img-responsive">	
 					<div class="row"><!-- comienza row-->
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-							<h1 class="blanca text-center"><b>Obtén videos de personas reales<br>utilizando tu sitio web, en 1 Hora</b></h1>
+							<h1 class="blanca text-center animated bounce"><b>Obtén videos de personas reales<br>utilizando tu sitio web, en 1 Hora</b></h1>
 						</div>
 					</div><!-- termina row-->
 					<div class="row backblue"><!-- comienza row-->
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center blanca">
-							<h4><b>PRUEBA GRATUITA</b></h4>
+							<h4 class="animated wobble"><b>PRUEBA GRATUITA</b></h4>
 							<p>Obtén un video gratis de 5 minutos</p>
 						</div>
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">    <!--checar ingreso mi MODAL --> 
-							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button>  <!-- MODAL -->
-							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+							<button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Pruebalo gratis</button>  <!-- MODAL -->
+							<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel">
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
-											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><!-- &times; --></span></button>
-											<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="myModalLabel">User Testing 360°</h4>
 										</div>
 										<div class="modal-body">
-											<p>hola</p>
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/1QAI4B_2Mfc" frameborder="0" allowfullscreen></iframe>
 										</div> 
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-											<button type="button" class="btn btn-primary">Save changes</button>
+											<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
 										</div>
 									</div>
 								</div>	
@@ -84,27 +83,27 @@
 							<a class="ciel" id="ciel" href="#" data-toggle="tooltip" title="Adquiere una PRUEBA GRATUITA">Nuestros servicios</a>
 						</div>
 					</div><!-- termina row-->
-					<div class="row text-center iconos">
+					<div class="row text-center iconos"><!-- MIS íconos -->
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<div>agregar ícono</div> <!-- agregar ícono ++++++++++++++ -->
-						<p class="azul">Pruebalo gratis</p>
+						<div><span class="icon-video iconservicios" aria-hidden="true"></span></div> 
+						<p class="azul separar">Pruebalo gratis</p>
 						<p>Obtén un primer video screencast de un usuario navegando tu página.</p>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<div>agregar ícono</div> <!-- agregar ícono ++++++++++++++ -->
-						<p class="azul">Compra el servicio completo</p>
+						<div><span class="icon-clock  iconservicios" aria-hidden="true"></span></div> 
+						<p class="azul separar">Compra el servicio completo</p>
 						<p>Si te gustó; compra nuestro servicio completo que incluye 7 vídeos y feedback.</p>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-						<div>agregar ícono</div> <!-- agregar ícono ++++++++++++++ -->
-						<p class="azul">Obtén el resultado en 1 día</p>
+						<div><span class="icon-documents  iconservicios" aria-hidden="true"></span></div>
+						<p class="azul separar">Obtén el resultado en 1 día</p>
 						<p>Te haremos llegar los vídeos y el feedback completo el mismo día.</p>
 						</div>
 					</div>
 					<div class="row"><!-- comienza row-->
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center servicios"><!-- img-separador-->
-							<hr class="servicios" id="line">
 							<img class="tilt sobrepuesto" src="image/separador.png" alt="separador">
+							<hr class="servicios" id="line">
 						</div> 
 					</div>
 				</div><!-- termina container-->	
@@ -115,13 +114,12 @@
 						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<p class="text-right ciel" id="ciel"><b>Ejemplo de</b><img class="logo img-responsive" src="image/logo-2.jpg" alt="logo"></p>
 							<p>En este video te damos un ejemplo de un integrante de nuestro panel evaluando la experiencia de uso de</p>
-							<a href="#
-							">mimediamanzana.com</a>
+							<a href="#">mimediamanzana.com</a>
 							<p>El objetivo de User Testing 360 es identificar situaciones confusas de lois usuarios en su we y describir soluciones, que garanticen una experiencia de uso satisfactoria.</p>
-							<a href="#"><img class="img-responsive center-block separar" src="image/flecha.png" alt="flecha"></a><!--flecha azul  -->
+							<a href="#"><img class="img-responsive center-block separar animated bounce" src="image/flecha.png" alt="flecha"></a><!--flecha azul  -->
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-							<div class="pareja"></div>   <!-- agregar video desde css -->
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><!--agregar video desde css -->
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/bDBVD9KPHHU" frameborder="0" allowfullscreen></iframe> 
 						</div>
 					</div><!-- termina row-->
 				</div><!-- termina container-->		
@@ -129,15 +127,15 @@
 			<section><!-- comienza mi section -->
 				<div class="container"><!-- comienza container-->
 					<div class="row"><!-- comienza row-->
-						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 separar">
 							<div class="lapRosa img-responsive"></div>  <!--imagen de fondo -->
 						</div>
-						<div class="visible-md visible-lg col-md-1 col-lg-1 iconos">
-							<div class="pulse">A</div> <!-- agregar ícono ++++++++++ -->
-							<div class="pulse">B</div> <!-- agregar ícono ++++++++++ -->
-							<div class="pulse">C</div> <!-- agregar ícono ++++++++++ -->
+						<div class="visible-md visible-lg col-md-1 col-lg-1 aladerecha separar">
+							<div><span class="icon-pencil lapiz iconos" aria-hidden="true"></span></div> <!-- agregar ícono ++++ -->
+							<div class="icon-tools-2 iconos" aria-hidden="true"></div> <!-- agregar ícono +++++ -->
+							<div class="icon-magnifying-glass iconos" aria-hidden="true"></div> <!-- agregar ícono +++++ -->
 						</div>
-						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 aladerecha">
+						<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 aladerecha separar">
 							<hr id="line2">
 							<h2>Lo quiero ¿Que hago?</h2>
 							<h3 class=" ciel">Paso 1: Envianos tu link</h3>
@@ -176,16 +174,37 @@
 							<p><a href="#">"User Testing 360"</a> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital.</p>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-							<div class="chicobanner"></div><!--imagen de fondo ++++-->  
+							<div class="chicobanner img-responsive"></div><!--imagen de fondo ++++-->  
 						</div>
 					</div><!-- termina row-->
+				</div>
+			</section>
+			<section>	
+				<div class="container"><!-- comienza container-->
 					<div class="row backciel"><!-- comienza row-->
 						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center blanca">
-							<h4><b>PRUEBA GRATUITA</b></h4>
+							<h4 class="animated wobble"><b>PRUEBA GRATUITA</b></h4>
 							<p>Obtén un vídeo de 5 minutos gratis</p>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 color ">
-							<button type="button" class="btn btn-primary btn-lg center-block" data-toggle="modal" data-target="#myModal">Pruebalo gratis</button>  
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">    <!--checar ingreso mi MODAL --> 
+							<button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Pruebalo gratis</button>  <!-- MODAL -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><!-- &times; --></span></button>
+											<h4 class="modal-title" id="myModalLabel">User Testing 360°</h4>
+										</div>
+										<div class="modal-body">
+											<iframe width="560" height="315" src="https://www.youtube.com/embed/1QAI4B_2Mfc" frameborder="0" allowfullscreen></iframe>
+										</div> 
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+										</div>
+									</div>
+								</div>	
+							</div>
 						</div>
 					</div>
 				</div><!-- termina container-->		
@@ -198,10 +217,10 @@
 							<a href="#">experienciadeusuario.lab@gmail.com</a>
 							<p class="separar">Telef:989637925</p>
 						</div>
-						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
-							<img src="">
-							<img src="">
-							<p>Copyright ©2015 - User Testing 360</p>
+						<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right ">
+							<div  class="tweet"><span class="icon-facebook iconos iconservicios animated rotateInUpLeft " aria-hidden="true"></span></div> <!-- agregar ícono ++++++++++++++ -->
+							<div class="tweet"><span class="icon-twitter iconos iconservicios animated rotateInUpLeft " aria-hidden="true"></span></div> <!-- agregar ícono ++++++++++++++ -->
+							<p>Copyright ©2015 - User Testing 360</p>  
 						</div>
 					</div><!-- termina row-->
 				</div><!-- termina container-->	
